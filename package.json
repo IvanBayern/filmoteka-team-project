@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "filmoteka-team-project",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://DeadlyPants11.github.io/project",
+  "homepage": "https://ivanbayern.github.io/filmoteka-team-project",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /project/"
