@@ -1,0 +1,74 @@
+.header__library {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/src/images/rectangle-mobile.jpg);
+  height: 216px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0 80px 0;
+}
+
+.my__library-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  width: 148px;
+  height: 42px;
+  background: inherit;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+}
+
+.activeBtn {
+  border: none;
+  background: #ff6b01;
+}
+
+.btn:hover,
+.btn:focus {
+  border: none;
+  background: #ff6b01;
+}
+
+@media screen and (min-width: 768px) {
+  .logo__text {
+    display: block;
+  }
+  .logo__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .search__container {
+    margin-top: 20px;
+  }
+  .header__library {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/src/images/rectangle-table.jpg);
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .header__library {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/src/images/rectangle-desktop.jpg);
+  }
+}
